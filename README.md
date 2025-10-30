@@ -30,7 +30,7 @@ cmake --build build
 
 * ReGenny uses plaintext project files instead of binary ones (`.genny` and `.json`). Plaintext formats are much better for inclusion in git repositories and makes collaborating with others on ReGenny projects easier since you can diff/merge project files.
 * Tree based display (like [ReClass.NET](https://github.com/ReClassNET/ReClass.NET)) but you build the tree using `.genny` files.
-* ReGenny uses [SdkGenny](https://github.com/cursey/sdkgenny) for output. One of [SdkGenny](https://github.com/cursey/sdkgenny)'s primary goals is to generate good output and ReGenny reaps all the benefits from that. Instead of a single monolithic header file, ReGenny uses [SdkGenny](https://github.com/cursey/sdkgenny) to generate a proper header file hierarchy for inclusion into your project. If your project is already using [SdkGenny](https://github.com/cursey/sdkgenny) then you don't even need to generate header files since you can just use the `.genny` file directly.
+* ReGenny uses [SdkGenny](https://github.com/cursey/sdkgenny) for output. One of [SdkGenny](https://github.com/cursey/sdkgenny)'s primary goals is to generate good output and ReGenny reaps all the benefits from that. Instead of a single monolithic header file, ReGenny uses [SdkGenny](https://github.com/cursey/sdkgenny) to generate a proper header file hierarchy for inclusion into your project. If your project is already using [SdkGenny](https://github.com/cursey/sdkgenny) then you don't even need to generate header files since you can just use the `.genny` file directly..
 * Since ReGenny uses [SdkGenny](https://github.com/cursey/sdkgenny), it supports everything `.genny` files do:
 	* Namespaces
 	* Enums
